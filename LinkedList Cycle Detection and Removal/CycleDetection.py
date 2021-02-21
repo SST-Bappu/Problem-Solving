@@ -23,12 +23,14 @@ def FloydCycleDetection(node): #Floyd's cycle finding method
             fast = fast.next
             print(f"Cycle Found at {fast.data}")
             break
-        slow = slow.next
-        fast = fast.next
-        fast = fast.next
+            
         if(slow.next==None or fast.next==None):
             print("There's no Cycle")
             return
+        slow = slow.next
+        fast = fast.next
+        fast = fast.next
+   
     slow = node
     while(True):
         if slow.next == fast.next:
