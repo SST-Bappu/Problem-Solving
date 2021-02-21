@@ -7,7 +7,7 @@ class ListNode:
 def DetectCycle(node): #Hashing Method
     HashTable = dict()
     prev = node
-    while(True):
+    while(node.next != None):
         if HashTable.get(node)==None:
             HashTable.update({node: node.data})
             prev = node
@@ -26,6 +26,9 @@ def FloydCycleDetection(node): #Floyd's cycle finding method
         slow = slow.next
         fast = fast.next
         fast = fast.next
+        if(slow.next==None or fast.next==None):
+            print("There's no Cycle")
+            return
     slow = node
     while(True):
         if slow.next == fast.next:
