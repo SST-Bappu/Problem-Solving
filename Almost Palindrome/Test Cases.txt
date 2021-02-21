@@ -1,0 +1,12 @@
+A string is almost palindrome if it can be converted into a palindrome string by changin only one character.
+
+Input = "Race a car"
+Output  = True
+
+It'll return true because if we can delete the charater 'a' then the string will be "rececar"
+(regardless of spaces and special character) which is a Palindrome String. 
+
+Input = "Race a F car"
+Output = False
+
+Here only changin a character we can't convert it to a palindrome string, that's why in that case it'll return False.
