@@ -1,0 +1,5 @@
+There two methods to Detect and Remove Cycle of a Linked List. They are-
+i) Hashing Table
+ii) Floyd's Method
+
+Here I solved both
