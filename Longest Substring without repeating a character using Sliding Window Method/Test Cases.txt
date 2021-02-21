@@ -1,0 +1,2 @@
+Input : abcadb
+Output : 4
