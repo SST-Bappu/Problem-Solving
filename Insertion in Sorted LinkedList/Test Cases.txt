@@ -1,0 +1,7 @@
+NewNode insertion in a sorted Linked List (It's basically a problem collected from hackerrank's LinkedList section.)
+
+List= 1->3->4->10
+input:
+data = 5
+Output:
+List = 1->3->4->5->10
