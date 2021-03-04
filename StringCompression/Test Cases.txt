@@ -1,0 +1,4 @@
+To compress a string. If the compressed array length is greater than original length then return the original string.
+
+Input: aaaabbbcccddaaa
+Output: a4b3c3d2a3
