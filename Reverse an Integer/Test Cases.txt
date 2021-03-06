@@ -1,0 +1,7 @@
+Reverse a number
+Input: 123
+Output: 321
+Input: -321
+Output:-123
+Input: 120
+Output: 21
