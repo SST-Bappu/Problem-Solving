@@ -1,0 +1,1 @@
+It finds out an item from a sorted array.
