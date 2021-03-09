@@ -1,3 +1,4 @@
+#using Runeer Method
 def DeleteMiddle(head):
     prev = None
     slow = head
